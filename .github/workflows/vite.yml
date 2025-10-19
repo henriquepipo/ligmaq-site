@@ -42,7 +42,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload a pasta 'dist' que será criada
-          path: './dist'
+          path: './build'
   # Deploy job
   deploy:
     environment:
